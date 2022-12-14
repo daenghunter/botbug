@@ -869,7 +869,7 @@ case 'nowa':
                          no_bio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                          console.log(`-${i}) ${nomer0}${i}${nomer1}`, color(` [REGISTERED]`, 'green'))
                        } else {
-                         nomerny += `• *Nomor* wa.me/${anu[0].jid.split("@")[0]}\n• *Bio* : ${anu1.status}\n• *date* : ${moment(anu1.setAt).tz('Asia/Jakarta').format('ddd DD MMM YYYY')}\n\n`
+                         nomerny += `•**Nomor* wa.me/${anu[0].jid.split("@")[0]}\n•**Bio* : ${anu1.status}\n•**date* : ${moment(anu1.setAt).tz('Asia/Jakarta').format('ddd DD MMM YYYY')}\n\n`
                          console.log(`-${i}) ${nomer0}${i}${nomer1}`, color(` [REGISTERED]`, 'green'))
                        }
                      } catch {
@@ -887,78 +887,42 @@ var l = 1
 hisoka.sendMessage(from, {
     caption: `Hi User ${pushname}
 
-*• 🍬 Date Islamic*
-      *_Wib_* : _${wib}_
-      *_Wita_* : _${wita}_
-      *_Wit_* : _${wit}_
-      
-      
 *Runtime Bot😅☝️*
 _*- ${runtime(process.uptime())}*_
 
 *Online WhatsApp*
 Os-Time : ${runtime(os.uptime())}
 
-                 *OTHER MENU*
-                 *ℒ⃝🥶 • tictactoe* @tag
-                 *ℒ⃝🥶• afk*
-                 *ℒ⃝🥶• anticall* on
-                 *ℒ⃝🥶• anticall* off
-                 *ℒ⃝🥶• nowa*
-
-                 *CONVERT MENU*
-
-                 *ℒ⃝🥶• sticker*
-                 *ℒ⃝🥶• emojimix*
-                 *ℒ⃝🥶• emojimix2*
-                 *ℒ⃝🥶• stickmeme*  <text>| <text>
-                 *ℒ⃝🥶• ttp* <text>
-                 *ℒ⃝🥶• attp* <text>
-                 *ℒ⃝🥶• toimage*
-                 *ℒ⃝🥶• dbinary*
-                 *ℒ⃝🥶• ebinary*
-                 *ℒ⃝🥶• tovideo*
-
-                 *RAMDOM MENU*
-
-                 *ℒ⃝🥶• patrick*
-                 *ℒ⃝🥶• dogestick*
-                 *ℒ⃝🥶• bucinstick*
-                 *ℒ⃝🥶• gurastick*
-
-                 *Khusus owner*
-            
-                 *ℒ⃝🥶• butto*
-                 *ℒ⃝🥶• stikto*
-                 *ℒ⃝🥶• catalogbug*
-                 *ℒ⃝🥶• bugvn*
-                 *ℒ⃝🥶• bugdoc*
-                 *ℒ⃝🥶• momo*
-                 *ℒ⃝🥶• momoto*
-                 *ℒ⃝🥶• gasmomo*
-                 *ℒ⃝🥶• gasinfinite*
-                 *ℒ⃝🥶• infinite*
-                 *ℒ⃝🥶• infiniteto*
-                 *ℒ⃝🥶• gassantet*
-                 *ℒ⃝🥶• santet*
-                 *ℒ⃝🥶• santetto*
-                 *ℒ⃝🥶• faraxxbug*
-                 *ℒ⃝🥶• vanfax*
-                 *ℒ⃝🥶• faraxxbug*
-                 *ℒ⃝🥶• faxxbugx*
-                 *ℒ⃝🥶• vanfax*
-                 *ℒ⃝🥶• crashcok*
-                 *ℒ⃝🥶• four*
-                 *ℒ⃝🥶• hihi*
-                 *ℒ⃝🥶• crashcok*
+*Khusus owner*            
+•*butto* (628xxxxx)
+•*stikto* (628xxxxx)
+•*catalogbug* (628xxxxx)
+•*bugvn* (628xxxxx)
+•*bugdoc* (628xxxxx)
+•*momo* (628xxxxx)
+•*momoto* (628xxxxx)
+•*gasmomo* (628xxxxx)
+•*gasinfinite* (628xxxxx)
+•*infinite* (628xxxxx)
+•*infiniteto* (628xxxxx)
+•*gassantet* (628xxxxx)
+•*santet* (628xxxxx)
+•*santetto* (628xxxxx)
+•*faraxxbug* (628xxxxx)
+•*vanfax* (628xxxxx)
+•*faraxxbug* (628xxxxx)
+•*faxxbugx* (628xxxxx)
+•*vanfax* (628xxxxx)
+•*crashcok* (628xxxxx)
+•*four* (628xxxxx)
+•*hihi* (628xxxxx)
+•*crashcok* (628xxxxx)
 
 *🚨* *WARNING*
 Berhati-hati dalam memilih menu
 Dapat mengakibatkan crash!!!
 
-*-Thank for*
-
- *-Arthur*
+© AlfiyanDev
 `,
     image: fs.readFileSync("./lib/thum.jpg"),
     buttons: [
@@ -973,7 +937,7 @@ Dapat mengakibatkan crash!!!
         displayText: 'Speed 🥶'
       }, type: 2}
     ],
-    footer: "© Arthur",
+    footer: "@ AlfiyanDev",
                 contextInfo: {
 "externalAdReply": { 
 "title" : global.ownername,
